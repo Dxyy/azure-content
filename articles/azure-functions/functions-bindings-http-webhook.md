@@ -94,7 +94,7 @@ See the language-specific sample that looks for a `name` parameter either in the
 - [Node.js](#httptriggernodejs)
 
 <a name="httptriggercsharp"></a>
-### HTTP trigger sample in C\#
+### HTTP trigger sample in C\# 
 
 ```csharp
 using System.Net;
@@ -122,7 +122,7 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceW
 ```
 
 <a name="httptriggerfsharp"></a>
-### HTTP trigger sample in F\#
+### HTTP trigger sample in F\# 
 
 ```fsharp
 open System.Net
@@ -240,7 +240,7 @@ See the language-specific sample that logs GitHub issue comments.
 - [Node.js](#hooktriggernodejs)
 
 <a name="hooktriggercsharp"></a>
-### Webhook sample in C\#
+### Webhook sample in C\# 
 
 ```csharp
 #r "Newtonsoft.Json"
@@ -264,7 +264,7 @@ public static async Task<object> Run(HttpRequestMessage req, TraceWriter log)
 ```
 
 <a name="hooktriggerfsharp"></a>
-### Webhook sample in F\#
+### Webhook sample in F\# 
 
 ```fsharp
 open System.Net
